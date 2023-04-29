@@ -1,21 +1,3 @@
-const searchEl = document.querySelector(".search");
-const searchInputEl = searchEl.querySelector("input");
-
-searchEl.addEventListener("click", function () {
-	// Logic...
-	searchInputEl.focus();
-});
-
-searchInputEl.addEventListener("focus", function () {
-	searchEl.classList.add("focused");
-	searchInputEl.setAttribute("placeholder", "통합검색");
-});
-
-searchInputEl.addEventListener("blur", function () {
-	searchEl.classList.remove("focused");
-	searchInputEl.setAttribute("placeholder", "");
-});
-
 const badgeEl = document.querySelector("header .badges");
 // badgeEl이라는 변수를 지정해 주고 어떤 값을 할당
 // document.querySelector라는 메소드를 실행해서 특정한 요소를 찾으려고 함
@@ -148,6 +130,3 @@ spyEls.forEach(function (spyEl) {
 		.setClassToggle(spyEl, "show")
 		.addTo(new ScrollMagic.Controller());
 });
-
-const thisYear = document.querySelector(".this-year");
-thisYear.textContent = new Date().getFullYear(); //2023
