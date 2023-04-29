@@ -193,8 +193,6 @@ header .main-menu {
 	z-index: 1;
 	/* 아래 부분의 배치 영역이 잘 덮힐 수 있도록 z-index로 제어 */
 }
-header .main-menu .item {
-}
 header .main-menu .item .item__name {
 	padding: 10px 20px 34px 20px;
 	font-family: Arial, sans-serif;
