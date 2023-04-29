@@ -47,8 +47,6 @@
 }
 
 /* NOTICE */
-.notice {
-}
 .notice .notice-line {
 	position: relative;
 }
@@ -330,8 +328,6 @@
 .season-product .text-group .description {
 	margin-bottom: 15px;
 }
-.season-product .text-group .more {
-}
 /* RESERVE COFFEE */
 .reserve-coffee {
 	background-image: url("../images/reserve_bg.jpg");
@@ -505,7 +501,6 @@
 	background-color: #fff;
 	color: #333;
 }
-
 #to-top {
 	width: 42px;
 	height: 42px;
